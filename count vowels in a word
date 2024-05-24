@@ -1,0 +1,52 @@
+package countvowels;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("type");
+		String s1=sc.next();
+		int a=0,e=0,i=0,o=0,u=0;
+		int count=0;
+		s1=s1.toLowerCase();
+		for(int j=0;j<s1.length();j++)
+		{
+			if(s1.charAt(j)=='a')
+			{
+				a++;
+			}
+			else if(s1.charAt(j)=='e') 
+			{
+				e++;
+				
+			}
+			else if(s1.charAt(j)=='i')
+			{
+				i++;
+			}
+			else if(s1.charAt(j)=='o')
+			{
+				o++;
+			}
+			else if(s1.charAt(j)=='u')
+			{
+				u++;
+			}
+			else
+			{
+				count++;
+			}
+	
+		}
+		System.out.println("a ="+a);
+		System.out.println("e ="+e);
+		System.out.println("i ="+i);
+		System.out.println("o ="+o);
+		System.out.println("u ="+u);
+		
+			
+	}
+
+
+}
