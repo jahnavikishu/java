@@ -1,0 +1,29 @@
+package java2;
+
+public class Alpha {
+	public static void main(String[] args) {
+		String s1="ramraJamohan";
+		char res1=s1.charAt(5);
+		System.out.println(res1);
+		boolean res2=s1.contains("ram");
+		System.out.println(res2);
+		boolean res3=s1.endsWith("han");
+		System.out.println(res3); 
+		boolean res4=s1.startsWith("ram");
+		System.out.println(res4);
+		System.out.println(s1.getClass());
+		int res5=s1.indexOf('a');
+		System.out.println(res5);
+		boolean res6=s1.isBlank();
+		System.out.println(res6);
+		String s2="";
+		boolean es6=s2.isBlank();
+		System.out.println(es6);
+		boolean res7=s2.isEmpty();
+		System.out.println(res7);
+		int res=s1.length();
+		System.out.println(res);
+		String res9=s1.replace('a','$');
+		System.out.println(res9);
+		 
+		
