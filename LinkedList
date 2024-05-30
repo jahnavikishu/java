@@ -1,0 +1,26 @@
+package java8;
+
+import java.util.LinkedList;
+
+public class P1 {
+	public static void main(String[] args) {
+		LinkedList l1=new LinkedList();
+		l1.add(56);
+		l1.add(78);
+		l1.add(73);
+		l1.add(87);
+		System.out.println(l1);
+		System.out.println(l1.equals(l1));
+		System.out.println(l1.lastIndexOf(87));		
+		System.out.println(l1.getClass());
+		System.out.println(l1.indexOf(56));	
+		System.out.println(l1.removeLast());
+		System.out.println(l1.getFirst());
+		System.out.println(l1.offer(78));
+		System.out.println(l1.peek());	
+		System.out.println(l1.peekFirst());	
+		System.out.println(l1.peekLast());
+		System.out.println(l1.poll());	
+		System.out.println(l1.descendingIterator());	
+	}
+}
