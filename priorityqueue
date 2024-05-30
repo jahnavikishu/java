@@ -1,0 +1,33 @@
+package java8;
+
+import java.util.PriorityQueue;
+
+public class PiriotyQuet {
+	public static void main(String[] args) {
+		PriorityQueue<Integer> re=new PriorityQueue<Integer>();
+		re.add(75);
+		re.add(150);
+		re.add(75);
+		re.add(150);
+		re.add(175);
+		re.add(175);
+		re.add(125);
+		re.add(125);
+		re.add(125);
+		re.add(15);
+		re.add(25);
+		re.add(25);
+		re.add(100);
+		re.add(15);
+		re.add(25);
+		re.add(100);
+		re.add(100);
+		re.add(50);
+		re.add(50);
+		re.add(18);
+		re.add(10);
+		re.add(5);
+		System.out.println(re);
+	
+	}
+}
