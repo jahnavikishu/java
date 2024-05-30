@@ -1,0 +1,18 @@
+package java8;
+
+import java.util.TreeSet;
+
+public class Tree {
+	public static void main(String[] args) {
+		TreeSet<Integer> vu=new TreeSet<Integer>();
+		vu.add(100);
+		vu.add(50);
+		vu.add(150);
+		vu.add(25);
+		vu.add(75);
+		vu.add(125);
+		vu.add(175);
+		System.out.println(vu);
+	
+}
+}
